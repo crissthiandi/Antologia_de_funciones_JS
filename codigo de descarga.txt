@@ -8,7 +8,7 @@ link.forEach( url =>
 a.push(url.src));
 
 for (var i=1; i<link.length;i++) {
-	if(a[i].width>400){
+	if(link[i].width>400){
 	var descargar = document.createElement('a');
 
 	descargar.download = true;
